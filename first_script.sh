@@ -16,3 +16,4 @@ echo ""
 echo  "Date and hour: $HOUR"
 echo ""
 sort $FILE
+exit 0
