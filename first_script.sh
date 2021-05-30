@@ -9,9 +9,10 @@
 #
 ################################################################
 HOUR=$(date +%H:%M)
+FILE="/home/bruno/Documents/courses/shell-script-course/programmers.txt"
 clear
 echo "========My First Script========"
 echo ""
 echo  "Date and hour: $HOUR"
 echo ""
-ls -l
+sort $FILE
