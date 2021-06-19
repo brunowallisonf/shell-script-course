@@ -16,4 +16,6 @@ echo ""
 echo  "Date and hour: $HOUR"
 echo ""
 sort $FILE
-exit 0
+read -p "Informe seu nome" NOME
+read -s -p "password"
+echo $NOME
